@@ -1,34 +1,42 @@
 💺 Titanic Dataset - Exploratory Data Analysis (EDA) & Preprocessing
 
-Overview
+Project Overview
 
-This project involves a complete EDA and preprocessing pipeline on the Titanic dataset, aimed at preparing the data for machine learning tasks. The notebook Task1.ipynb includes:
+This notebook performs Exploratory Data Analysis (EDA) and essential preprocessing on the Titanic dataset to prepare it for machine learning tasks.
 
-✅ Data cleaning and feature removal✅ Univariate and multivariate visualizations✅ Missing value imputation✅ Outlier detection and handling✅ Feature engineering✅ Feature scaling
+Key steps include:
 
-📁 Contents
+Data Cleaning
 
-Task1.ipynb: Step-by-step notebook covering:
+Visualizing Distributions and Patterns
 
-Data inspection (shape, info, describe)
+Handling Missing Values and Outliers
 
-Dropping irrelevant features (PassengerId, Name)
+Feature Engineering and Scaling
 
-Data visualization using Matplotlib and Seaborn
+Notebook Contents
 
-Handling missing values
+Task1.ipynb covers:
 
-Detecting and treating outliers
+Dataset inspection (shape, info, describe)
 
-Engineering new features for better model performance
+Dropping irrelevant features (e.g., PassengerId, Name)
 
-Scaling features for machine learning
+Data visualization with Matplotlib & Seaborn
 
-🗂️ Dataset
+Missing value treatment
 
-The notebook uses the Titanic dataset:Download Titanic Dataset from Kaggle
+Outlier detection and handling
 
-🛠️ Technologies Used
+Creating new features
+
+Scaling numerical features
+
+Dataset
+
+Titanic Dataset: Download from Kaggle
+
+Technologies
 
 Python 3.x
 
@@ -40,53 +48,19 @@ Matplotlib
 
 Seaborn
 
-🚀 How to Run
+Quick Start
 
-Install required libraries:
+Install requirements:
 
 pip install pandas numpy matplotlib seaborn
 
-Place the Titanic dataset (titanic.csv) in the same folder as the notebook.
+Place titanic.csv in the project folder.
 
-Open the notebook:
+Launch the notebook:
 
 jupyter notebook Task1.ipynb
 
-Run cells step-by-step to explore, clean, and preprocess the data.
-
-🌟 Key Steps in Notebook
-
-Step
-
-Description
-
-Data Inspection
-
-.info(), .shape(), .describe()
-
-Feature Removal
-
-Dropped unnecessary columns
-
-Visualization
-
-Histograms, Countplots, etc.
-
-Missing Value Handling
-
-Identifying and filling missing values
-
-Outlier Detection
-
-Detecting outliers using visualization
-
-Feature Engineering
-
-Creating new, meaningful features
-
-Feature Scaling
-
-Scaling numerical features appropriately
+Run cells to explore and preprocess the data.
 
 ✨ Author
 
