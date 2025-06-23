@@ -1,12 +1,12 @@
-💺 Titanic Dataset - Exploratory Data Analysis (EDA) & Preprocessing
+💺 Titanic Dataset - EDA & Preprocessing
 
-Project Overview
+📌 Project Overview
 
 This notebook performs Exploratory Data Analysis (EDA) and essential preprocessing on the Titanic dataset to prepare it for machine learning tasks.
 
-Key steps include:
+🔧 Key Steps:
 
-Data Cleaning
+Data Cleaning and Feature Removal
 
 Visualizing Distributions and Patterns
 
@@ -14,29 +14,27 @@ Handling Missing Values and Outliers
 
 Feature Engineering and Scaling
 
-Notebook Contents
+📂 Notebook Contents
 
-Task1.ipynb covers:
+Task1.ipynb includes:
 
-Dataset inspection (shape, info, describe)
+📊 Dataset inspection (shape, info, describe)
 
-Dropping irrelevant features (e.g., PassengerId, Name)
+🗑️ Dropping irrelevant features (PassengerId, Name)
 
-Data visualization with Matplotlib & Seaborn
+📈 Visualizations with Matplotlib & Seaborn
 
-Missing value treatment
+🛠️ Missing value treatment and outlier detection
 
-Outlier detection and handling
+🧩 Feature Engineering
 
-Creating new features
+📏 Feature Scaling
 
-Scaling numerical features
+🗃️ Dataset
 
-Dataset
+Titanic Dataset Source: Kaggle Titanic Dataset
 
-Titanic Dataset: Download from Kaggle
-
-Technologies
+🛠️ Technologies Used
 
 Python 3.x
 
@@ -48,7 +46,7 @@ Matplotlib
 
 Seaborn
 
-Quick Start
+🚀 Quick Start
 
 Install requirements:
 
@@ -60,7 +58,7 @@ Launch the notebook:
 
 jupyter notebook Task1.ipynb
 
-Run cells to explore and preprocess the data.
+Run cells to explore, visualize, and preprocess the data.
 
 ✨ Author
 
