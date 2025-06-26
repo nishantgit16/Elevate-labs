@@ -58,5 +58,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## ✅ Conclusion
 The project demonstrates how to build a baseline regression model with proper preprocessing and interpretation for housing price prediction. Future improvements could involve handling outliers, exploring non-linear models, and applying regularization.
 
-##Author
+Author
 Nishant Gupta
