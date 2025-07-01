@@ -1,96 +1,85 @@
- K-Nearest Neighbors (KNN) Classification - Iris Dataset
+#  K-Nearest Neighbors (KNN) Classification - Iris Dataset
 
-📌 Objective
-
+## 📌 Objective
 Implement and explain K-Nearest Neighbors (KNN) classification on the Iris dataset using Scikit-learn, Pandas, and Matplotlib.
 
-📂 Project Overview
+---
 
+## 📂 Project Overview
 This notebook demonstrates the complete process of applying KNN classification to the Iris dataset, including:
 
-Data loading and exploration
+- Data loading and exploration  
+- Handling missing values and cleaning  
+- Detecting and managing outliers for stability  
+- Feature normalization (critical for KNN)  
+- Model training with various values of `k`  
+- Model evaluation with accuracy and confusion matrix  
+- Decision boundary visualization for feature pairs  
 
-Handling missing values and cleaning
+---
 
-Detecting and managing outliers for stability
+## 📊 Dataset Description
 
-Feature normalization (critical for KNN)
+**Iris Dataset**  
+The classic Iris dataset contains flower measurements for three species:
 
-Model training with various values of k
+- **Features:**  
+  - Sepal length (cm)  
+  - Sepal width (cm)  
+  - Petal length (cm)  
+  - Petal width (cm)  
 
-Model evaluation with accuracy and confusion matrix
+- **Target:**  
+  - Species (Setosa, Versicolor, Virginica)  
 
-Decision boundary visualization for feature pairs
+Total samples: 150  
 
-📊 Dataset Description
+---
 
-Iris DatasetThe classic Iris dataset contains flower measurements for three species:
+## 🛠 Technologies Used
 
-Features:
+- Python 3.x  
+- Pandas & NumPy for data manipulation  
+- Matplotlib & Seaborn for visualization  
+- Scikit-learn for machine learning tasks  
 
-Sepal length (cm)
+---
 
-Sepal width (cm)
+## ⚙️ Step-by-Step Process
 
-Petal length (cm)
+1. **Data Import & Inspection**  
+   Loaded the dataset and performed basic exploration.  
 
-Petal width (cm)
+2. **Outlier Handling**  
+   Detected and addressed outliers to improve model robustness.  
 
-Target:
+3. **Feature Normalization**  
+   Applied StandardScaler to standardize features (KNN is distance-based, scaling is critical).  
 
-Species (Setosa, Versicolor, Virginica)
+4. **Train-Test Split**  
+   Split the data for reliable model evaluation.  
 
-Total samples: 150
+5. **KNN Model Training**  
+   Trained `KNeighborsClassifier` and experimented with different values of `k`.  
 
-🛠 Technologies Used
+6. **Model Evaluation**  
+   Evaluated performance using:  
+   - Accuracy Score  
+   - Confusion Matrix  
 
-Python 3.x
+7. **Decision Boundary Visualization**  
+   Visualized decision regions for various feature pairs to understand model behavior.  
 
-Pandas & NumPy for data manipulation
+---
 
-Matplotlib & Seaborn for visualization
+## 📈 Key Insights
 
-Scikit-learn for machine learning tasks
+- Proper scaling significantly impacts KNN performance  
+- Choosing the right `k` balances bias-variance trade-off  
+- Visualizing decision boundaries helps interpret model decision-making  
+- Outlier handling enhances stability and reliability  
 
-⚙️ Step-by-Step Process
+---
 
-Data Import & InspectionLoaded the dataset and performed basic exploration.
-
-Outlier HandlingDetected and addressed outliers to improve model robustness.
-
-Feature NormalizationApplied StandardScaler to standardize features (KNN is distance-based, scaling is critical).
-
-Train-Test SplitSplit the data for reliable model evaluation.
-
-KNN Model TrainingTrained KNeighborsClassifier and experimented with different values of k.
-
-Model EvaluationEvaluated performance using:
-
-Accuracy Score
-
-Confusion Matrix
-
-Decision Boundary VisualizationVisualized decision regions for various feature pairs to understand model behavior.
-
-📈 Key Insights
-
-Proper scaling significantly impacts KNN performance.
-
-Choosing the right k balances bias-variance trade-off.
-
-Visualizing decision boundaries helps interpret model decision-making.
-
-Outlier handling enhances stability and reliability.
-
-🚀 Quick Start
-
-Install required libraries:
-
-pip install pandas numpy seaborn matplotlib scikit-learn
-
-Run the notebook:
-
-jupyter notebook Task_6.ipynb
-
-Explore the step-by-step process and visualizations.
-
+## Author
+Nishant Gupta
